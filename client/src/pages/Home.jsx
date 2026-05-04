@@ -75,6 +75,17 @@ const Home = () => {
       <div className="home-glow home-glow--1"></div>
       <div className="home-glow home-glow--2"></div>
 
+      {/* 3D Background Model */}
+      <div className="home-3d-bg">
+        <iframe 
+          title="Subway Dustbin" 
+          frameBorder="0" 
+          allowFullScreen 
+          allow="autoplay; fullscreen; xr-spatial-tracking" 
+          src="https://sketchfab.com/models/39a354855bac49ff9a8396acad637dfc/embed?autostart=1&autospin=0.5&transparent=1&ui_controls=0&ui_infos=0&ui_watermark=0"
+        ></iframe>
+      </div>
+
       {/* Top Nav Bar */}
       <header className="home-header">
         <div className="home-header__brand">
