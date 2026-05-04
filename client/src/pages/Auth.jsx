@@ -19,7 +19,7 @@ const Auth = () => {
     setLoading(true);
     try {
       const endpoint = isLogin ? '/api/auth/signin' : '/api/auth/signup';
-      const res = await axios.post(`http://localhost:5000${endpoint}`, formData);
+      const res = await axios.post(`${endpoint}`, formData);
       
       if (isLogin) {
         localStorage.setItem('token', res.data.token);
